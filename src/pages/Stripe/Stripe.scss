@@ -1,0 +1,136 @@
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.ContenedorStripprincipal {
+    /* background-color: aquamarine !important; */
+
+    display: flex;
+    height: 85vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .footer {
+      position: sticky;
+      bottom: 0;
+    }
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(255, 193, 127) !important;
+
+  @media (max-width: 767px) {
+
+  }
+}
+
+.productRow {
+  margin-bottom: 10px;
+}
+
+
+
+
+.rowStripEncabezado {
+    border: 1px solid #dee2e6;
+      .col {
+        border: 1px solid #dee2e6;
+        text-align: center;
+        background-color: #ddd2d2;
+
+          h5 {
+            @media (max-width: 768px) {
+              font-size: 0.8rem !important;
+            }
+            @media (min-width: 769px) and (max-width: 968px) {
+              font-size: 0.9rem;
+            }
+            @media (min-width: 969px) {
+              font-size: 0.9rem;
+            }
+          }
+
+        }
+
+
+  }
+
+  .rowStripeBody {
+    border: 1px solid #dee2e6;
+    list-style-type: none;
+    border-top: none;
+
+    text-align: center; /* Justifica el contenido al centro */
+    display: flex;
+    justify-content: center;
+
+    .col {
+      border: 1px solid #dee2e6;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+  }
+
+
+
+  /* Contenedor para Cantidad total, Valor total y Botón de pago */
+  .total-strip-container {
+    display: flex;
+    align-items: center;
+      flex-direction: column;
+      align-items: flex-end;
+  }
+
+  /* Estilos para cada elemento dentro del contenedor */
+  .total-container > div {
+    text-align: center;
+    flex: 1;
+  }
+
+
+  /* Estilos para los encabezados (h6) dentro del contenedor */
+  .total-container h6 {
+    margin-bottom: 5px;
+  }
+
+  .costo {
+    display: flex;
+      flex-direction: row;
+      gap: 5%;
+  }
+
+  .costoTotal {
+    .btn {
+      width: 100%;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .encabezadoStripDescripcion {
+      display: none !important;
+
+    }
+    .encabezadoStripCiudad {
+      display: none !important;
+
+    }
+    .bodyStripDescripcion {
+      display: none !important;
+
+    }
+    .bodyStripCity {
+      display: none !important;
+
+    }
+  }
+

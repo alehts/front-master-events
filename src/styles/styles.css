@@ -1,0 +1,13 @@
+/* src/styles.css */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
+body {
+
+  background: linear-gradient(106.37deg, #ccfff688 29.63%, #cfcfff81 51.55%, #d4c6f382 90.85%);
+
+}

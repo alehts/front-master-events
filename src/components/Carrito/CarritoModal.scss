@@ -1,0 +1,126 @@
+.modal-body {
+  padding-top: 0;
+}
+
+.CarritoModalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #d3d3e0;
+
+}
+
+#h4Title {
+  font-size: 2rem;
+  color: #3e3e7b;
+
+  @media (max-width: 768px) {
+    font-size: 1.3rem;
+    margin-left: calc(100% - 80%);
+  }
+  @media (min-width: 769px) and (max-width: 968px) {
+    font-size: 1.8rem;
+    margin-left: calc(100% - 81%);
+  }
+  @media (min-width: 969px) {
+    margin-left: calc(100% - 72%);
+  }
+}
+
+.rowModalCarritoEncabezado {
+  border: 1px solid #dee2e6;
+    .col {
+      border: 1px solid #dee2e6;
+      text-align: center;
+      background-color: #ddd2d2;
+
+        h5 {
+          @media (max-width: 768px) {
+            font-size: 0.8rem !important;
+          }
+          @media (min-width: 769px) and (max-width: 968px) {
+            font-size: 0.9rem;
+          }
+          @media (min-width: 969px) {
+            font-size: 0.9rem;
+          }
+        }
+
+      }
+
+
+}
+
+.rowModalCarritoBody {
+  border: 1px solid #dee2e6;
+  list-style-type: none;
+  border-top: none;
+
+  text-align: center; /* Justifica el contenido al centro */
+  display: flex;
+  justify-content: center;
+
+  .col {
+    border: 1px solid #dee2e6;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+}
+
+
+
+/* Contenedor para Cantidad total, Valor total y Botón de pago */
+.total-container {
+  display: flex;
+  align-items: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* Estilos para cada elemento dentro del contenedor */
+.total-container > div {
+  text-align: center;
+  flex: 1;
+}
+
+
+/* Estilos para los encabezados (h6) dentro del contenedor */
+.total-container h6 {
+  margin-bottom: 5px;
+}
+
+.costo {
+  display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.costoTotal {
+  .btn {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .encabezadoDescripcion {
+    display: none !important;
+
+  }
+  .encabezadoCiudad {
+    display: none !important;
+
+  }
+  .bodyDescripcion {
+    display: none !important;
+
+  }
+  .bodyCity {
+    display: none !important;
+
+  }
+}

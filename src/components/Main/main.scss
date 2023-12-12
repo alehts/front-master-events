@@ -1,0 +1,45 @@
+
+.mainPage {
+
+    color: #242d49;
+    background: linear-gradient(106.37deg,
+            #ccfff688 29.63%,
+            #cfcfff81 51.55%,
+            #b59beda7 90.85%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+
+    @media (max-width: 768px) {
+      
+      margin-top: 13vh;
+    }
+    @media (min-width: 769px) and (max-width: 968px) {
+      margin-top: 13vh;
+    }
+    @media (min-width: 969px) {
+      padding: 1.3rem 3.5rem;
+      margin-top: 12vh;
+    }
+}
+
+.AppGlassMain {
+    height: 97%;
+    width: 97%;
+    background: rgba(255, 255, 255, 0.54);
+    border-radius: 2rem;
+    overflow: hidden;
+
+
+  @media (max-width: 768px) {
+
+  }
+  @media (min-width: 769px) and (max-width: 968px) {
+
+  }
+  @media (min-width: 969px) {
+
+  }
+
+}
