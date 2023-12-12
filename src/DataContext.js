@@ -6,7 +6,8 @@ import Keycloak from 'keycloak-js';
     Init Options
   */
 let initOptions = {
-  url: 'http://localhost:8082/',
+  // url: 'http://localhost:8082/',
+  url: 'http://ec2-44-208-27-210.compute-1.amazonaws.com:8082/',
   realm: 'masterEvents',
   clientId: 'react-client',
 }
